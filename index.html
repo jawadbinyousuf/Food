@@ -49,14 +49,17 @@
             <button class="btn1">Order Now</button>
           </div>
         </div>
-        <div class="image">
-          <div class="img">
+        <div
+          class="image"
+          style="display: flex; justify-content: center; align-items: center"
+        >
+          <div class="img" style="width: fit-content">
             <img src="./food.png" height="300px" alt="" />
-          </div>
-          <div class="price">
-            <h4>Only</h4>
-            <h3>$9.9</h3>
-            <h5>/PACK</h5>
+            <div class="price">
+              <h4>Only</h4>
+              <h3>$9.9</h3>
+              <h5>/PACK</h5>
+            </div>
           </div>
         </div>
       </div>
@@ -74,13 +77,13 @@
       <div class="container">
         <div class="type">
           <button class="main-btn">All Food</button>
-          <button class="btn3">Strawberry</button>
-          <button class="btn3">Banana</button>
-          <button class="btn3">Apple</button>
-          <button class="btn3">Banana</button>
+          <button class="btn3" id="strawberry">Strawberry</button>
+          <button class="btn3" id="apple-btn">Apple</button>
+          <button class="btn3" id="orange-btn">Orange</button>
+          <button class="btn3" id="banana-btn">Banana</button>
         </div>
         <div class="types-fruit">
-          <div class="fruit">
+          <div class="fruit" id="sberry">
             <div class="images">
               <img src="./photo/sberry.jpg" height="180px" alt="" />
               <h1>Strawberry</h1>
@@ -94,7 +97,7 @@
               <button class="main-btn">Order Now</button>
             </div>
           </div>
-          <div class="fruit">
+          <div class="fruit" id="apple">
             <div class="images">
               <img src="./photo/apple.jpg" height="180px" alt="" />
               <h1>Apple</h1>
@@ -108,9 +111,9 @@
               <button class="btn2">Order Now</button>
             </div>
           </div>
-          <div class="fruit">
+          <div class="fruit" id="orange">
             <div class="images">
-              <img src="./photo/orange.jpg" height="180px" width="70%" alt="" />
+              <img src="./photo/orange.jpg" height="180px" alt="" />
               <h1>Orange</h1>
               <p>
                 An orange is a fruit of various citrus species in the family; it
@@ -122,7 +125,7 @@
               <button class="btn2">Order Now</button>
             </div>
           </div>
-          <div class="fruit">
+          <div class="fruit" id="banana">
             <div class="images">
               <img src="./photo/banana.jpg" height="180px" alt="" />
               <h1>Banana</h1>
@@ -136,6 +139,8 @@
               <button class="btn2">Order Now</button>
             </div>
           </div>
+
+          <!-- pop -->
         </div>
       </div>
     </section>
@@ -167,21 +172,23 @@
             <button class="btn6">Order Now</button>
           </div>
         </div>
-        <div class="image">
-          <div class="foods">
+        <div
+          class="image"
+          style="display: flex; align-items: center; justify-content: center"
+        >
+          <div class="foods" style="width: fit-content">
             <img src="./photo/foods.png" height="350px" alt="" />
-          </div>
-
-          <div class="price1">
-            <h2>
-              Special <br />
-              Offer
-            </h2>
-            <h4>25</h4>
-            <h2>
-              % <br />
-              OFF
-            </h2>
+            <div class="price1">
+              <h2>
+                Special <br />
+                Offer
+              </h2>
+              <h4>25</h4>
+              <h2>
+                % <br />
+                OFF
+              </h2>
+            </div>
           </div>
         </div>
       </div>
